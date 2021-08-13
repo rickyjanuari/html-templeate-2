@@ -1,8 +1,9 @@
+
+// HEADER STICKY
+
 window.onload = function() {
-	// Variables
+
 	var nav = document.querySelector('.sticky-header');
-  // Functions
-	// You can use toggle instead of add/remove
 	function navFixed(e) {
 		if(window.scrollY > 100) {
 			nav.classList.add('is-sticky');
@@ -10,8 +11,18 @@ window.onload = function() {
 			nav.classList.remove('is-sticky');
 		}
 	}
-
-	// Event Listener
 	window.addEventListener('scroll', navFixed);
+}
 
+
+var toggle = document.querySelector('.toggle');
+var menuMobile = document.querySelector('.offcanvas-modal');
+var closeBtn = document.querySelector('button.btn-close');
+
+toggle.onclick = function() {
+	menuMobile.classList.toggle('show');
+}
+
+closeBtn.onclick = function() {
+	menuMobile.classList.remove('show');
 }

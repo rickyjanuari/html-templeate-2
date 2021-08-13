@@ -1,0 +1,38 @@
+@import "node_modules/sass-mediaqueries/_media-queries.scss";
+
+@import "node_modules/animatewithsass/animate.scss";
+@import "fonts/metropolis";
+@import "fonts/opensans";
+@import "bootstrap/bootstrap";
+
+@import
+	"variables",
+	"commons";
+@import
+	"layout/header",
+	"layout/footer";
+@import
+"components/title",
+"components/testimonials",
+"components/team",
+"components/sub_menu",
+"components/sidebar-widget",
+"components/services",
+"components/pagination",
+"components/onffcanvas-menu",
+"components/massonary",
+"components/hero",
+"components/funfact",
+"components/feature",
+"components/contact",
+"components/card",
+"components/button",
+"components/brand",
+"components/blog",
+"components/blog-details",
+"components/banner",
+"components/accordions",
+"components/about",
+"components/form/form",
+"components/form/newsletter";
+

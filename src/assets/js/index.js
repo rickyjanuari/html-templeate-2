@@ -14,7 +14,7 @@ window.onload = function() {
 	window.addEventListener('scroll', navFixed);
 }
 
-
+// TOGGLE MOBILE MENU
 var toggle = document.querySelector('.toggle');
 var menuMobile = document.querySelector('.offcanvas-modal');
 var closeBtn = document.querySelector('button.btn-close');
@@ -26,3 +26,7 @@ toggle.onclick = function() {
 closeBtn.onclick = function() {
 	menuMobile.classList.remove('show');
 }
+
+
+
+
